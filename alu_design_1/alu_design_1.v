@@ -16,7 +16,6 @@ module alu(A, B, Alu_Control, Result);
     wire [31:0] not_b;
     wire [31:0] mux;
     wire [31:0] sum;
-    wire [31:0] mux_result ;
     
     // Assign Wires
     assign and_a_b = A & B;
@@ -24,8 +23,8 @@ module alu(A, B, Alu_Control, Result);
     assign not_b = ~B;
     assign mux = (Alu_Control[0] == 1'b0) ? B : not_b;
     assign sum = A + mux + Alu_Control[0];
-    assign result_mux = (Alu_Control == 2'b00) ? sum : 
-                        (Alu_Control == 2'b01) ? sum :
-                        (Alu_Control == 2'b10) ? and_a_b :
+    assign Result = (Alu_Control[1:0] == 2'b00) ? sum : 
+                        (Alu_Control[1:0] == 2'b01) ? sum :
+                        (Alu_Control[1:0] == 2'b10) ? and_a_b :
                         or_a_b;
 
