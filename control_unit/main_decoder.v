@@ -1,4 +1,4 @@
-module Main_Decoder(zero, ResultSrc, MemWrite, AluSrc, ImmSrc, RegWrite, op, AluOp, PcSrc, Branch)
+module Main_Decoder(zero, ResultSrc, MemWrite, AluSrc, ImmSrc, RegWrite, op, AluOp, PcSrc, Branch);
 
   input zero;
   input [6:0] op;
