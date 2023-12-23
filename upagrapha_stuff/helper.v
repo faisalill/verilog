@@ -8,7 +8,7 @@ function void fill_zeroes (input integer rows, input integer cols, output reg [3
 
 endfunction
 
-function void fill_random_one_or_zero (input integer rows, input integer cols, outpute reg [31:0] array [0:rows-1][0:cols-1]);
+function void fill_random_one_or_zero (input integer rows, input integer cols, output reg [31:0] array [0:rows-1][0:cols-1]);
   integer i,j;
   reg random_bit;  
 
