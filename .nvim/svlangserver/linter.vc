@@ -6,6 +6,7 @@
 +incdir+/home/fiveyyyy/github/verilog/program_counter
 +incdir+/home/fiveyyyy/github/verilog/register_file
 +incdir+/home/fiveyyyy/github/verilog/riscv_singe_cycle_core/single_cycle_top
++incdir+/home/fiveyyyy/github/verilog/upagrapha_stuff
 +incdir+/home/fiveyyyy/github/verilog/alu_desgin_2
 +incdir+/home/fiveyyyy/github/verilog/alu_design_1
 +incdir+/home/fiveyyyy/github/verilog/control_unit
@@ -14,3 +15,4 @@
 +incdir+/home/fiveyyyy/github/verilog/program_counter
 +incdir+/home/fiveyyyy/github/verilog/register_file
 +incdir+/home/fiveyyyy/github/verilog/riscv_singe_cycle_core/single_cycle_top
++incdir+/home/fiveyyyy/github/verilog/upagrapha_stuff
