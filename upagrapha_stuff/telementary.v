@@ -192,4 +192,18 @@ assign minorFrame67 = {FH7, xGyro[5][111:96], yGyro[5][111:96], zGyro[5][111:96]
 
 assign minorFrame68 = {FH8, xGyro[5][127:112], yGyro[5][127:112], zGyro[5][127:112], q1[5][127:112], q2[5][127:112], q3[5][127:112], q4[5][127:112], lastCmd[5][127:112]};
 
+wire [1151:0] MajorFrame1, MajorFrame2, MajorFrame3, MajorFrame4, MajorFrame5, MajorFrame6;
+
+assign MajorFrame1 = {minorFrame11, minorFrame12, minorFrame13, minorFrame14, minorFrame15, minorFrame16, minorFrame17, minorFrame18};
+
+assign MajorFrame2 = {minorFrame21, minorFrame22, minorFrame23, minorFrame24, minorFrame25, minorFrame26, minorFrame27, minorFrame28};
+
+assign MajorFrame3 = {minorFrame31, minorFrame32, minorFrame33, minorFrame34, minorFrame35, minorFrame36, minorFrame37, minorFrame38};
+
+assign MajorFrame4 = {minorFrame41, minorFrame42, minorFrame43, minorFrame44, minorFrame45, minorFrame46, minorFrame47, minorFrame48};
+
+assign MajorFrame5 = {minorFrame51, minorFrame52, minorFrame53, minorFrame54, minorFrame55, minorFrame56, minorFrame57, minorFrame58};
+
+assign MajorFrame6 = {minorFrame61, minorFrame62, minorFrame63, minorFrame64, minorFrame65, minorFrame66, minorFrame67, minorFrame68};
+
 
